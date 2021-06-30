@@ -1,0 +1,501 @@
+* {
+    font-family: Ariel, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#title {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background: rgb(134,35,65);
+    background: radial-gradient(circle, rgba(134,35,65,1) 0%, rgba(110,64,111,1) 50%, rgba(164,118,53,1) 100%);
+    margin: 0 auto;
+    display: grid;
+}
+
+#title h1 {
+    text-align: center;
+    color:darkgrey;
+    padding: 5%;
+}
+
+#title h4 {
+    text-align: center;
+    color:darkgrey;
+}
+
+#title h6 {
+    text-align: center;
+    color:darkgrey;
+}
+
+html {
+    overflow: hidden;
+    width: 100vw;
+    height: 100%;
+}
+
+body {
+    background-color: #1C4554;
+    overflow: scroll; 
+    height: 100%;
+    margin: 0;
+}
+
+#img-container {
+    width: 60%;
+    margin: 2rem auto; 
+}
+
+#gallery-illustration {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem; 
+}
+
+
+.illustration-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+.image-visual--one {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.image-visual--two {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.image-visual--three {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 15;
+}
+
+.image-visual--four {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 14;
+}
+
+#main {
+    color: rgb(236,202,234);
+}
+
+#tribute-info {
+    text-align: center;
+    padding: 5%;
+    font-size: 12px;
+    padding-top: 20%;
+    
+}
+
+#tribute-info h3 {
+  font-size: xx-large;
+  padding-bottom: 6%;
+}
+
+#list-container h3 {
+      text-align: center;
+      position: relative;
+      padding: 3%;
+}
+
+#list-container {
+    width: 65%;
+    height: 300px;
+    background: rgb(203,92,88);
+    background: radial-gradient(circle, rgba(203,92,88,1) 0%, rgba(25,56,56,1) 100%);
+    margin: 60px auto;
+    padding: 5%;
+    margin-bottom: 15%;
+    border-radius: 30px;
+    position:relative;
+    box-shadow: 10px 4px 70px 30px rgb(114 228 118 / 95%), 0 0 60px rgb(113 38 210 / 90%) inset;
+}
+
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    margin: 25%;
+    border: 20px ridge #E031E5;
+    padding: 30px;
+    align-items: center;
+}
+
+.comic-image {
+    width: 400px;
+    height: auto;
+}
+
+.arkham-graphic {
+    text-align: center;
+    width: 400px;
+    padding: 3%;
+    color: beige;
+
+}
+
+.mckean-quote {
+    font-size: 15px;
+    color: #E0BB72;
+    text-align: center;
+}
+
+cite {
+    font-size: 10px;
+}
+
+#foot-container {
+    background-color: #5CB793;  
+    margin: 0 auto;
+    font-size: 1.2rem;        
+}
+
+.foot-text {
+    color:darkslategray;
+    text-align: center;
+    padding: 10%;
+}
+
+.foot-text p h3 {
+    line-height: 2em;
+}
+
+#tribute-link {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+#tribute-link:link {
+    color: #FF3BA5;
+  }
+  
+#tribute-link:visited {
+    color: #FF3BA5;
+  }
+  
+#tribute-link:focus {
+    border-bottom: 1px solid;
+    background-color: #F5C8F0;
+  }
+  
+#tribute-link:hover {
+    border-bottom: 1px solid;
+    background-color: #AE88AA;
+    border: dashed;
+    border-width: 2px 4px;
+    border-radius: 40px;
+  }
+  
+#tribute-link:active {
+    background-color: #EF90C3;
+    color: #F5C8F0;
+  }
+
+@media all and (max-width: 1800px) and (min-width: 1025px), (min-width: 2560px) {
+    #title {
+        padding: 0%;
+    }
+    #title h1 {
+        font-size: 120px;
+    }
+    #title h4 {
+        font-size: 35px;
+    }
+    #title h6 {
+        font-size: 20px;
+        padding: 10%;
+    }
+    #img-caption {
+        font-size: 21px;
+        padding-top: 10%;
+    }
+    #tribute-info h3 {
+        font-size: 100px;
+        padding-bottom: 7%;
+    }
+    #tribute-info {
+        font-size: 30px;
+    }
+    #img-div {
+        margin: 4%;
+        border: 60px ridge #E031E5;
+        padding: 0px;
+    }
+    .comic-image {
+        width: 100%;
+    }
+    .arkham-graphic {
+        font-size: 30px;
+        width: auto;
+    }
+    #list-container {
+        width: 80%;
+        height: 800px;
+        margin: 200px auto;
+        box-shadow: 6px 6px 100px 60px rgb(114 228 118 / 95%), 0 0 60px rgb(113 38 210 / 90%) inset;
+        padding: 11%;
+    }
+    #list-container h3 {
+        font-size: 50px;
+    }
+    ul {
+        font-size: 30px;
+    }
+    .mckean-quote {
+        font-size: 30px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .foot-text {
+        padding: 4%;
+        font-size: 40px;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 700px) {
+    #title h1 {
+        font-size: 90px;
+    }
+    #title h4 {
+        font-size: 30px;
+    }
+    #title h6 {
+        font-size: 15px;
+        padding: 5%;
+    }
+    #img-caption {
+        font-size: 14px;
+        padding-top: 6%;
+    }
+    .comic-image {
+        width: 100%;
+    }
+    #img-div {
+        margin: 5%;
+        padding: 0;
+        border: 40px ridge #E031E5;
+    }
+    #tribute-info {
+        font-size: 20px;
+    }
+    #tribute-info h3 {
+        font-size: 90px;
+    }
+    .arkham-graphic {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    #list-container {
+        width: 75%;
+        height: 500px;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 10%;
+        box-shadow: 1px 6px 90px 50px rgb(114 228 118 / 95%), 0 0 50px rgb(113 38 210 / 90%) inset;
+    }
+    #list-container h3 {
+        font-size: 30px;
+    }
+    .mckean-quote {
+        font-size: 20px;
+        padding: 20%;
+    }
+    #tribute-link {
+        padding: 1px 10px 10px;
+    }
+    .foot-text {
+        padding: 5%;
+        font-size: 25px;
+    }
+
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+    #title h1 {
+        font-size: 80px;
+    }
+    #title h4 {
+        font-size: 20px;
+    }
+    #title h6 {
+        padding-bottom: 30%;
+    }
+    #img-caption {
+        font-size: 11px;
+        padding-top: 12%;
+    }
+    #tribute-info h3 {
+        font-size: 50px;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
+    #tribute-info {
+        padding: 10%;
+        font-size: 15px;
+    }
+    #img-div {
+        margin: 7.6%;
+        padding: 0px;
+    }
+    .comic-image {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 519px) and (min-width: 481px) {
+    #img-caption {
+        font-size: 11px;
+        padding-top: 4%;
+    }
+    #img-div {
+        margin: 5%;
+        padding: 0px;
+    }
+    .comic-image {
+        width: 100%;
+        padding-top: 0%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #title {
+        width: 100%;
+        height: 300px;
+    }
+    #main {
+        display: inline-block;
+    }
+    #img-container {
+        width: 95%;
+        margin: 0.5rem auto;
+    }
+    .illustration-img {
+        object-fit: cover;
+    }
+    .image-visual--three {
+        grid-row-start: 7;
+    }
+    #img-caption {
+        font-size: 10px;
+        padding-top: 10%;
+    }
+    #img-div {
+        padding: 1px;
+        align-items: center;
+        width: 290px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .comic-image {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+    .arkham-graphic {
+        font-size: 10px;
+        margin-top: 4px;
+        text-direction: ltr;
+        writing-mode: initial;
+        justify-content: center;
+        width: 240px;
+    }
+    #list-container {
+        font-size: 12px;
+        width: 80%;
+        padding: 9%;
+        box-shadow: 10px 4px 70px 12px rgb(114 228 118 / 95%), 0 0 60px rgb(113 38 210 / 90%) inset;
+    }
+    .mckean-quote {
+        padding: 12%;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 240px) 
+  and (max-device-width: 319px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #title {
+        width: 100%;
+        height: 300px;
+    }
+    #title h4 {
+        font-size: 12px;
+    }
+    #title h6 {
+        font-size: 7px;
+    }
+    #img-container {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .illustration-img {
+        object-fit: cover;
+    }
+    #img-caption {
+        font-size: 8px;
+        padding-top: 10%;
+    }
+    #tribute-info {
+        padding-top: 40%;
+    }
+    #img-div {
+        margin: 3%;
+        padding: 0px;
+    }
+    .comic-image {
+        width: 100%;
+    }
+    .arkham-graphic {
+        font-size: 10px;
+        width: auto;
+    }
+    #list-container {
+        width: 60%;
+        height: auto;
+        box-shadow: 2px 2px 30px 20px rgb(114 228 118 / 88%), 0 0 30px rgb(113 38 210 / 80%) inset;
+        margin: 50px auto;
+    }
+    #list-container h3 {
+        padding: 5%;
+        font-size: 15px;
+    }
+    ul {
+        font-size: 12px;
+        padding: 10%;
+    }
+    .mckean-quote {
+        padding: 8%;
+    }
+    .foot-text {
+        font-size: 20px;
+    }
+  }
+
