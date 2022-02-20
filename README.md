@@ -20,3 +20,5 @@ I was tasked by Founders and Coders to create a Tribute Website that shows my sk
 
 ### Screenshot View:
 
+<img width="420" alt="Dave-Mckean-Tribute" src="https://user-images.githubusercontent.com/45575016/153942649-44a82454-12b1-4662-92af-c02e1a471de0.png">
+
