@@ -5,7 +5,7 @@
 
 I was tasked by Founders and Coders to create a Tribute Website that shows my skills I have learnt from freeCodeCamp on the fundamentals of HTML and CSS. This website provides information on Dave Mckean :artist: an artist that I truly admire. His work is super fascinating, from mixed media of photographic and painted surreal characters. :art:
 
-### Required Features:
+### Completed Features:
 
 - :strawberry: Semantic HTML.
 - :pineapple: CSS Grid.
